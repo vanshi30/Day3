@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="stylesheet" type="text/css" href="css/style1.css">
+    </head>
+    <body>
+        <h1 align="center">REGISTRATION FOR INTERNSHIP</h1>
+        <div class="registration">
+        <form method="post" id="registration" action="process.php">
+            
+            Name: 
+            <input type="text" name="txt" id="name" placeholder="Enter your name" max="30" required="true">*
+            <br><br>
+            Address:<br>
+            <textarea rows="5" cols="30" name="txta" id="name" placeholder="Enter your address"></textarea>
+            <br><br>
+            Date:
+            <input type="date" name="date" id="name">
+            <br><br>
+            Number:
+            <input type="text" name="num" id="name" placeholder="Mobile number" aria-label="n">
+            <br><br>
+            Mail:
+            <input type="email" name="email" id="name" placeholder="Enter your mail">
+            <br><br>
+            Gender:
+            <input type="radio" name="rd" value="male" id="ma"><span id="ma">Male</span>;
+            <input type="radio" name="rd" value="female" id="ma"><span id="ma">Female<</span>;
+            <br><br>
+            Languages known:
+            <input type="checkbox" name="cbox" value="c" id="check"><span id="check">c</span>;
+            <input type="checkbox" name="cbox1" value="java" id="check"><span id="check">java</span>;
+            <input type="checkbox" name="cbox2" value="python" id="check"><span id="check">python</span>;
+            <input type="checkbox" name="cbox3" value="php" id="check"><span id="check">php</span>;
+            <br><br>
+            Timing:
+            <select name="menu" id="name">
+                <option value="a">10am-4pm</option>
+                <option value="b">11am-5pm</option>
+                <option value="c">1pm-7pm</option>
+                <option value="d">2am-8pm</option>
+            </select>
+            <br><br>
+            Enter your resume:
+            <input type="file" name="file">
+            <br><br>
+            <input type="submit" value="Submit Data" id="sub">
+            <input type="reset" value="Reset data" id="sub">
+        </form>
+        </div>
+    </body>
+</html>
